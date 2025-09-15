@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FiveM RP - Purple City</title>
+    <meta
+      name="description"
+      content="Purple City - FiveM Roleplay szerver | Csatlakozz most!"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --bg: #0f0326;
+        --grad: linear-gradient(135deg, #6d28d9, #9333ea, #c084fc);
+        --accent: #a78bfa;
+        --muted: rgba(255, 255, 255, 0.75);
+        --card: rgba(255, 255, 255, 0.05);
+        --border: rgba(255, 255, 255, 0.08);
+      }
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: "Inter", sans-serif;
+        background: radial-gradient(
+            circle at top left,
+            rgba(139, 92, 246, 0.15),
+            transparent
+          ),
+          radial-gradient(
+            circle at bottom right,
+            rgba(168, 85, 247, 0.1),
+            transparent
+          ),
+          var(--bg);
+        color: #fff;
+        line-height: 1.6;
+      }
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 2rem;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        background: rgba(15, 3, 38, 0.85);
+        backdrop-filter: blur(6px);
+        border-bottom: 1px solid var(--border);
+      }
+      header .logo {
+        font-weight: 800;
+        font-size: 1.3rem;
+        background: var(--grad);
+        -webkit-background-clip: text;
+        color: transparent;
+      }
+      nav a {
+        margin-left: 1rem;
+        text-decoration: none;
+        font-weight: 600;
+        color: var(--muted);
+        transition: color 0.2s;
+      }
+      nav a:hover {
+        color: #fff;
+      }
+      section {
+        padding: 4rem 2rem;
+        max-width: 1100px;
+        margin: 0 auto;
+      }
+      h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        background: var(--grad);
+        -webkit-background-clip: text;
+        color: transparent;
+      }
+      p {
+        color: var(--muted);
+      }
+      .card {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 1rem;
+        padding: 1.5rem;
+        margin-top: 1rem;
+      }
+      .btn {
+        display: inline-block;
+        margin-top: 1rem;
+        padding: 0.6rem 1.2rem;
+        border-radius: 0.6rem;
+        text-decoration: none;
+        font-weight: 600;
+        background: var(--grad);
+        color: #fff;
+      }
+      footer {
+        padding: 1.5rem 2rem;
+        text-align: center;
+        font-size: 0.9rem;
+        color: var(--muted);
+        border-top: 1px solid var(--border);
+        margin-top: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">Zero Blaze Roleplay</div>
+      <nav>
+        <a href="#bevezeto">Bevezető</a>
+        <a href="#szabalyzat">Szabályzat</a>
+        <a href="#ppshop">PP Shop</a>
+        <a href="#whitelist">Whitelist</a>
+        <a href="#discord">Discord</a>
+      </nav>
+    </header>
+
+    <section id="bevezeto">
+      <h2>Bevezető</h2>
+      <div class="card">
+        <p>
+          A Zero Blaze Roleplay egy olyan FiveM közösség, ahol a kreativitás, az
+          élmény és a realisztikus szerepjáték áll a középpontban. Szerverünk
+          célja, hogy egy stabil, barátságos és izgalmas környezetet
+          biztosítsunk mindazoknak, akik szeretnék kibontakoztatni karaktereik
+          történetét. Nálunk minden játékosnak lehetősége van egyedi szerepeket
+          betölteni, legyen szó civil életről, bűnszervezetekről vagy éppen
+          hivatalos frakciókról. <br> <br> A Zero Blaze RP különlegessége, hogy nagy
+          hangsúlyt fektetünk a részletes szabályrendszerre, a fair játékra és
+          az aktív staff munkájára, így biztosítva a minőségi RP élményt. Ha
+          szeretnél egy közösséghez tartozni, ahol számít a kreativitásod,
+          tiszteletben tartják a játékosokat és mindig akad új lehetőség, akkor
+          jó helyen jársz.
+        </p>
+      </div>
+    </section>
+
+    <section id="szabalyzat">
+      <h2>Szabályzat</h2>
+      <div class="card">
+        <ol>
+          <li>Tartsd tiszteletben a többi játékost és a staffot.</li>
+          <li>Tilos a cheat, exploit és bug abuse.</li>
+          <li>Meta gaming és power gaming nem engedélyezett.</li>
+          <li>Az RP élményt mindig helyezd előtérbe.</li>
+          <li>
+            A szabályszegés következménye figyelmeztetés vagy kitiltás lehet.
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="ppshop">
+      <h2>PP Shop</h2>
+      <div class="card">
+        <p>
+          A támogatói boltban lehetőséged van PP vásárlására,
+          amellyel különleges skineket, járműveket és egyéb extrákat
+          szerezhetsz.
+        </p>
+        <a href="#" class="btn">Belépés a PP Shopba</a>
+      </div>
+    </section>
+
+    <section id="whitelist">
+      <h2>Whitelist</h2>
+      <div class="card">
+        <p>
+          Szerverünkre whitelist rendszerrel lehet belépni. Ehhez egy rövid
+          jelentkezést kell kitöltened, ahol megismerhetjük a roleplay
+          tapasztalataidat és terveidet.
+        </p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfKOjHBug7IZ6k5WKc74Q_4dBCVC_1-uisKd0sDBV9FOhZpeA/viewform?usp=dialog" class="btn" target="_blank">Whitelist jelentkezés</a>
+      </div>
+    </section>
+
+    <section id="discord">
+      <h2>Discord</h2>
+      <div class="card">
+        <p>
+          Csatlakozz Discord közösségünkhöz a legfrissebb hírekért, támogatásért
+          és eseményekért!
+        </p>
+        <a href="https://discord.gg/UH5KEFhc3a" target="_blank" class="btn"
+          >Discord Csatlakozás</a
+        >
+      </div>
+    </section>
+
+    <footer>
+      © <span id="year"></span> Purple City RP • Minden jog fenntartva.
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
